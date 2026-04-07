@@ -11,7 +11,24 @@ public class Combo implements OrderComponent {
         this.name = name;
     }
 
-    public void add(OrderComponent component) {
+
+    public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public List<OrderComponent> getComponents() {
+		return components;
+	}
+
+	public void setComponents(List<OrderComponent> components) {
+		this.components = components;
+	}
+
+	public void add(OrderComponent component) {
         components.add(component);
     }
 
@@ -19,6 +36,9 @@ public class Combo implements OrderComponent {
         components.remove(component);
     }
 
+    public List<OrderComponent> getList() {
+        return components;
+    }
     @Override
     public double getTotalPrice() {
         double total = 0;
