@@ -155,15 +155,3 @@ public static void main(String[] args) {
          - Bàn trà gỗ (x1)
          ...
 ```
-
----
-
-## 🎯 Tính năng chính
-
-✅ Quản lý sản phẩm & combo dạng cây
-✅ Tính tổng tiền đệ quy
-✅ Lưu trữ bằng CSDL quan hệ
-✅ Load dữ liệu từ DB → dựng lại cấu trúc
-✅ In cây phân cấp rõ ràng
-
----
